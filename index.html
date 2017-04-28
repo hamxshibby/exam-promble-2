@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem</title>
+    <link rel="stylesheet" type=text/css href="styles/Exam2problem.css" />
+    <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+    <h1> Exam 2 Problem</h1>
+    <hr>
+    <select onchange="MenuChoice();" id="menu">
+        <option>Please select an option</option>
+        <option value="ShowSection1">Show Category List</option>
+        <option value="ShowSection2">Add Product Category</option>
+        <option value="ShowSection3">Change Category Description</option>
+        <option value="ShowSection4">Delete Category</option>
+        <option value="ShowSection5">THIS GUY!</option>
+    </select>
+
+<section id="section1" class="section1">
+    <h2>Category List</h2>
+    <div id="categorylist"></div>
+    </section>
+
+<section id="section2" class="section2">
+    <h2>Add a Product Category</h2>
+    <div class="createcategory"><label>Please enter the category name: </label>
+    <input type="text" id="catname">
+    <label>Please enter the category description: </label>
+    <input type="text" id="catdescription"></div>
+    <button onclick="CreateCategory();" id="newcategory">Add a New Category</button>
+    <hr>
+    <label id="result">The results will display here.</label>
+    </section>
+
+<section id="section3" class="section3">
+    <h2>Change the Category Description</h2>
+    <div class="updatedescription"><label>Please enter the category ID: </label>
+    <input type="text" id="changecategoryid">
+    <br>
+    <label>Please enter the category description: </label>
+    <input type="text" id="changecategorydescription"></div>
+    <br>
+    <button onclick="ChangeCategory();" id="changecategory">Change Category Description</button>
+    <br>
+    <hr>
+    <br>
+    <label id="result2">The results will display here.</label>
+    </section>
+
+<section id="section4" class="section4">
+    <h2>Delete Category from the Database</h2>
+    <div class="deletecat"><label>Please enter the category ID to be deleted: </label>
+    <input type="text" id="categoryid"></div>
+    <br>
+    <button onclick="DeleteCategory();" id="deletecategory">Delete Category</button>
+    <br>
+    <hr>
+    <br>
+    <label id="result3">The results will display here.</label>
+    </section>
+
+<section id="section5" class="section5">
+    <h2>About Me Section</h2>
+    <div class="about"></div>
+    <br>
+    <b>Oi, my name is Mitch Hamrick. I'm a turbo-nerd that currently runs a comicbook store.</b>
+    <br>
+    </section>
+</body>
+</html>

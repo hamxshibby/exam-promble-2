@@ -1,0 +1,16 @@
+
+section.section1 {background-color: grey; visibility: hidden; position: absolute; top: 140px; left: 15px; width: 450px; overflow: scroll;}
+
+section.section2 {background-color: grey; visibility: hidden; position: absolute; top: 140px; left: 15px; width: 450px; overflow: scroll;}
+
+section.section3 {background-color: grey; visibility: hidden; position: absolute; top: 140px; left: 15px; width: 450px; overflow: scroll;}
+
+section.section4 {background-color: grey; visibility: hidden; position: absolute; top: 140px; left: 15px; width: 450px; overflow: scroll;}
+
+section.section5 {background-color: grey; visibility: hidden; position: absolute; top: 140px; left: 15px; width: 450px; overflow: scroll;}
+
+h2 { font-family: sans-serif; text-align: center; font-weight: bold; color: red;}
+
+
+.deletecat label {display: inline-block; width: 300px; height: auto; margin: 3px;}
+
